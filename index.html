@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Sandeep</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Candara, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url("Sandeep.jpg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .header {
+            background-color: #3333338b;
+            padding: 10px;
+            color: #fff;
+            font-size: 30px;
+            font-family: Candara, sans-serif;
+
+        }
+        .navbar {
+            background-color: #4444446e;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 350px;
+            
+        }
+        .navbar a {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #898121;
+            color: #F7F1E5;
+            text-decoration: none;
+            border-radius: 56px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for color change and glow effect */
+            display: flex;
+            align-items: center;
+        }
+        .navbar a span {
+            display: none; /* Hide the button names by default */
+        }
+        .navbar a:hover {
+            background-color: #4C4B16; /* Change to dark black on hover */
+            box-shadow: 0 0 10px #979797; /* Add glow in white shadow on hover */
+        }
+        .content {
+            padding: 20px;
+        }
+        /* Media Queries for Responsive Design */
+        @media screen and (min-width: 610px) {
+            .navbar a span {
+                display: inline-block; /* Display the button names for screens with max-width 600px */
+                padding-left: 10px;
+              }
+            }
+        @media screen and (max-width: 610px) {
+          
+          .header {
+            background-color: #3333338b;
+            padding: 10px;
+            color: #fff;
+            font-size: 25px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url("Sandeep.jpg.jpg");
+            background-position: 50%;
+          }
+          
+        }
+        @media screen and (max-width: 280px) {
+          
+          .header {
+            background-color: #3333338b;
+            padding: 10px;
+            color: #fff;
+            font-size: 17px;
+        }
+        .navbar {
+            background-color: #4444446e;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 430px;
+            
+        }
+
+        } 
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hello Mate !</h1>
+    </div>
+    <div class="navbar">
+        <a href="about.html"><i class="fas fa-info"></i><span>About Me</span></a>
+        <a href="projects.html"><i class="fas fa-project-diagram"></i><span>Projects</span></a>
+        <a href="contact.html"><i class="fas fa-envelope"></i><span>Contact</span></a>
+        <a href="social.html"><i class="fab fa-instagram"></i><span>Social Media</span></a>
+    </div>
+</body>
+</html>
